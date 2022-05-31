@@ -7,6 +7,7 @@ namespace Microsoft.BotBuilderSamples
 {
     public interface IBotServices
     {
+        //Chamando QnA
         IQnAMakerClient QnAMakerService { get; }
     }
 }
