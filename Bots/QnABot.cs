@@ -18,7 +18,7 @@ namespace Microsoft.BotBuilderSamples.Bots
         protected readonly BotState ConversationState;
         protected readonly Microsoft.Bot.Builder.Dialogs.Dialog Dialog;
         protected readonly BotState UserState;
-        protected string defaultWelcome = "Hello and Welcome";
+        protected string defaultWelcome = "Olá seja bem vindo ao StorageSolutions a sua solução para armazenamento e estoque de produtos! Em que posso ajudar hoje ?";
 
         public QnABot(IConfiguration configuration, ConversationState conversationState, UserState userState, T dialog)
         {
