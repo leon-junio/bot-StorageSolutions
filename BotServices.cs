@@ -48,7 +48,7 @@ namespace Microsoft.BotBuilderSamples
             }
             else
             {
-                throw new ArgumentException("Please fill in the configuration parameters.");
+                throw new ArgumentException("Por favor preencha os parametros corretos para o bot.");
             }
         }
     }
