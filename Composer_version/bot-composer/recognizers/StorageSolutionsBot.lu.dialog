@@ -1,8 +1,0 @@
-{
-  "$kind": "Microsoft.MultiLanguageRecognizer",
-  "id": "LUIS_StorageSolutionsBot",
-  "recognizers": {
-    "en-us": "StorageSolutionsBot.en-us.lu",
-    "": "StorageSolutionsBot.en-us.lu"
-  }
-}
