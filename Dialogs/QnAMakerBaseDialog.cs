@@ -24,9 +24,9 @@ namespace Microsoft.BotBuilderSamples.Dialogs
         private readonly IBotServices _services;
         private readonly IConfiguration _configuration;
 
-        public const string ActiveLearningCardTitle = "Did you mean:";
-        public const string ActiveLearningCardNoMatchText = "None of the above.";
-        public const string ActiveLearningCardNoMatchResponse = "Thanks for the feedback.";
+        public const string ActiveLearningCardTitle = "Você quis dizer:";
+        public const string ActiveLearningCardNoMatchText = "Nenhuma das acima.";
+        public const string ActiveLearningCardNoMatchResponse = "Obrigado pelo feedback.";
         private readonly string DefaultAnswer = "";
         private bool _enablePreciseAnswer;
         private bool _displayPreciseAnswerOnly;
