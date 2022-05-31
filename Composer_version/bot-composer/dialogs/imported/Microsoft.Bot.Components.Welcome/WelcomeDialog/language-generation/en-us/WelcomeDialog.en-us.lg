@@ -1,0 +1,25 @@
+[import](common.lg)
+
+# SendActivity_WelcomeReturningUser()
+[Activity
+    Text = ${SendActivity_WelcomeReturningUser_text()}
+]
+
+# SendActivity_WelcomeReturningUser_text()
+- 🖐️ Bem vindo de volta! Como posso te ajudar hoje?
+- 🖐️ Olá novamente! Como posso te ajudar?
+- 🖐️ Bom te ver denovo. O que você quer por hoje?
+- 🖐️ E ai? Vamos começar.
+- 🖐️ Salve mane! Que que pega?
+# SendActivity_WelcomeNewUser()
+[Activity
+    Text = ${SendActivity_WelcomeNewUser_text()}
+]
+
+# SendActivity_WelcomeNewUser_text()
+- 🖐️ Olá, seja bem vindo! Como eu posso te ajudar hoje?
+- 🖐️ Oi! Como eu posso te ajudar?
+- 🖐️ E ai bão? Você precisa de ajuda?
+
+> Imported: ecb31044e0e5c0b54f49870e6872f158
+- 🖐️ Salve! Qual a boa pra hoje?
