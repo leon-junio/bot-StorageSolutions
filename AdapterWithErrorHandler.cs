@@ -21,11 +21,11 @@ namespace Microsoft.BotBuilderSamples
                 // NOTE: In production environment, you should consider logging this to
                 // Azure Application Insights. Visit https://aka.ms/bottelemetry to see how
                 // to add telemetry capture to your bot.
-                logger.LogError(exception, $"[OnTurnError] unhandled error : {exception.Message}");
+                logger.LogError(exception, $"[OnTurnError] Erro inesperado : {exception.Message}");
 
                 // Send a message to the user
-                await turnContext.SendActivityAsync("The bot encountered an error or bug.");
-                await turnContext.SendActivityAsync("To continue to run this bot, please fix the bot source code.");
+                await turnContext.SendActivityAsync("Infelizmente um erro ou um bug aconteceu na nossa tentativa de conversa.");
+                await turnContext.SendActivityAsync("Reporte o erro para continuar usando.");
 
                 if (conversationState != null)
                 {
